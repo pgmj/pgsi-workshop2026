@@ -197,16 +197,16 @@ Analyserade som separata delskalor fungerar item fit väl för båda faktorerna 
 [**”PGSI-6”** (item 1–4, 7, 9)]{style="font-size:0.9em"}
 
 ![](images/fig35_swelogs_pgsi6_targeting.png){fig-alt="Targetingfigur för delskalan med item 1-4, 7 och 9, med de två högsta svarskategorierna sammanslagna."}
+[**Faktor 1**: item 1 och 7 har fortfarande oordnade trösklar efter sammanslagning av de två högsta kategorierna.]{style="font-size:0.7em"}
 :::
 
 ::: {.column width="50%" .fragment}
 [**”PGSI-3”** (item 5, 6, 8)]{style="font-size:0.9em"}
 
 ![](images/fig36_swelogs_pgsi3_targeting.png){fig-alt="Targetingfigur för delskalan med item 5, 6 och 8, med de två högsta svarskategorierna sammanslagna. Inga svarströsklar är oordnade."}
+[**Faktor 2**: inga oordnade trösklar efter sammanslagning. **Korrelation** F1 & F2 *r* = 0.51]{style="font-size:0.7em"}
 :::
 ::::
-
-[**Faktor 1**: item 1 och 7 har fortfarande oordnade trösklar efter sammanslagning av de två högsta kategorierna. **Faktor 2**: inga oordnade trösklar efter sammanslagning.]{style="font-size:0.7em"}
 
 ## CFA: jämförelse med kanadensiska data
 
