@@ -75,8 +75,8 @@ Till skillnad från nästan alla tidigare publicerade analyser använder vi **si
 
 ## Tidigare forskning: litteraturöversikt
 
-- 33 studier identifierade, 2001–2025 [[@ferrisCanadianProblemGambling2001]]{style="font-size:0.6em"}
-  * 28 använde faktoranalys, 7 IRT/Rasch
+- 33 studier identifierade, 2001–2025 
+  * 28 använde faktoranalys, 7 inkluderade IRT/Rasch
 
 ::: {.incremental}
 - De flesta drar slutsatsen att PGSI är **endimensionell** — men:
