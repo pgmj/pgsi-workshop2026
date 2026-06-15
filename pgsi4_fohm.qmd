@@ -27,7 +27,7 @@ lang: sv
 
 ## PGSI-4 och dataunderlag
 
-PGSI-4 = de fyra första frågorna i PGSI-9. Används i **HLV** för att mäta viss risk för spelproblem (1–2 poäng) respektive problemspelande (3+ poäng).
+PGSI-4 = de fyra första frågorna i PGSI-9. Används i **Hälsa på Lika Villkor (HLV)** för att mäta viss risk för spelproblem (1–2 poäng) respektive problemspelande (3+ poäng).
 
 ::: {style="font-size:0.6em"}
 | Item | Frågeställning |
@@ -69,7 +69,7 @@ Oväntade svarsmönster (U3): 9–11% av respondenterna flaggas. Vanligast är s
 
 ::: {.column width="40%"}
 - **Samtliga item har oordnade svarströsklar**: ”Ofta” är i princip identisk med ”Nästan alltid”
-- Item 4 har problem med flera kategorier och behöver **dikotomiseras**
+- Item 4 har problem med flera kategorier är i princip dikotom
 - Samma mönster i Swelogs; något mildare i Stödlinjen, men avstånden är även där mycket små
 :::
 ::::
@@ -92,20 +92,24 @@ Oväntade svarsmönster (U3): 9–11% av respondenterna flaggas. Vanligast är s
 :::
 ::::
 
-## Invarians: ålder
+## Invarians: ålder {style="margin-bottom:0 !important;"}
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](images/fig22_swelogs_pgsi4_dif_alder.png){fig-alt="Tröskelvärden per item för åldersgrupper under respektive över 42 år i Swelogs. Den lägsta tröskeln för item 1-3 skiljer sig med 0.55-0.65 logits mellan grupperna."}
+![](images/fig22b_swelogs_pgsi4_dif_alder.png){fig-alt="Tröskelvärden per item för åldersgrupper under respektive över 42 år i Swelogs. Den lägsta tröskeln för item 1-3 skiljer sig med 0.55-0.65 logits mellan grupperna." width="72%" style="margin:0; display:block;"}
+![](images/fig07b_hlv_dif_alder.png){width="72%"}
 :::
 
 ::: {.column width="40%"}
 - Återkommande mönster i flera dataset: skillnader **över/under ca 40 års ålder**
 - I Swelogs: lägsta tröskeln för item 1–3 skiljer 0.55–0.65 logits
-- I HLV störst avvikelser för gruppen 81+ (få respondenter)
-- Trösklarna är stabila **över tid** (insamlingsår)
+- I HLV (nedre bild): störst avvikelser för gruppen 81+ (få respondenter)
+- Trösklarna är **stabila över tid** (insamlingsår)
 :::
 ::::
+
+::: footer
+:::
 
 ## Targeting
 
@@ -126,7 +130,7 @@ Oväntade svarsmönster (U3): 9–11% av respondenterna flaggas. Vanligast är s
 [Estimeras med sammanslagna svarskategorier (item 1–3) och dikotomiserat item 4, som en pragmatisk lösning på problemen med oordnade trösklar.]{style="font-size:0.8em"}
 
 :::: {.columns}
-::: {.column width="55%"}
+::: {.column width="45%"}
 ::: {style="font-size:0.65em"}
 | Ordinal summapoäng | Conditional reliability (McDonald's $\omega$) |
 |:---:|:---:|
@@ -138,11 +142,11 @@ Oväntade svarsmönster (U3): 9–11% av respondenterna flaggas. Vanligast är s
 | 5 | 0.60 |
 :::
 :::
-
-::: {.column width="45%" .fragment}
+::: {.column width="10%"}
+:::
+::: {.column width="45%"}
 - Reliabiliteten är **låg över hela skalan** — som högst 0.60
-- Lägst just där screeninggränserna ligger (1–3 poäng)
-- Fyra item med få fungerande svarströsklar ger helt enkelt begränsad information
+- Fyra item med få fungerande svarströsklar ger begränsad information
 :::
 ::::
 
@@ -152,9 +156,9 @@ Givet item 4:s höga trösklar har vi testat att ersätta det med **item 5** (*�
 
 ::: {.incremental}
 - **Item 5**: inga problem med item fit; lägsta tröskeln ca 1 logit lägre än item 4
-- **Item 9**: fungerar **helt utan anmärkning** med item 1–3, har ännu lägre tröskelvärde — och dessutom en extra fungerande svarströskel
-- Båda centrerar måttet på den **lägre delen av den latenta skalan**, där screening behöver information
-- Att använda *både* item 5 och 9 tillsammans med item 1–3 skapar däremot nya problem (overfit/underfit)
+- **Item 9**: fungerar utan anmärkningar med item 1–3, har ännu lägre tröskelvärde — och dessutom en extra fungerande svarströskel
+- Båda centrerar måttet mot den **lägre delen av den latenta skalan**, där screening behöver information
+- Att använda *både* item 5 och 9 tillsammans med item 1–3 resulterar däremot i psykometriska problem (multidimensionalitet)
 :::
 
 ## Targeting: item 1–4 vs item 1–3 + 9
@@ -173,7 +177,26 @@ Givet item 4:s höga trösklar har vi testat att ersätta det med **item 5** (*�
 :::
 ::::
 
-[Item 9 ger information närmare populationens nivå — och en extra svarströskel (t2).]{style="font-size:0.8em"}
+[Item 9 ger information närmare populationens nivå — och en extra svarströskel (t2) jämfört med både item 4 och 5.]{style="font-size:0.8em"}
+
+
+## Targeting: item 1–4 vs item 1–3 + 5
+
+:::: {.columns}
+::: {.column width="50%"}
+[**PGSI-4** (item 1–4)]{style="font-size:0.9em"}
+
+![](images/alt_pgsi4_q1234_targeting.png){fig-alt="Targetingfigur för item 1-4 i Swelogs. Item 4 har sin enda fungerande tröskel högt upp på skalan, kring 1.2 logits."}
+:::
+
+::: {.column width="50%" .fragment}
+[**Alternativ** (item 1–3 + 5)]{style="font-size:0.9em"}
+
+![](images/alt_pgsi4_q1235_targeting.png){fig-alt="Targetingfigur för item 1-3 plus item 5 i Swelogs. Item 5 har två fungerande trösklar placerade lägre på skalan, närmare personfördelningen."}
+:::
+::::
+
+[Item 5 ger information närmare populationens nivå]{style="font-size:0.8em"}
 
 ## Sammanfattning {.blue}
 

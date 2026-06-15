@@ -29,9 +29,9 @@ lang: sv
 - Folkhälsomyndigheten ska få **bättre kunskap om mätegenskaperna** hos PGSI-9 och PGSI-4, samt deras relation till andra mått på ohälsa.
 - Psykometriska analyser baserade på:
   * **Swelogs** 2015, 2018, 2021 (PGSI-9)
-  * **USUF** 2021 (PGSI-9)
-  * **HLV** 2014–2024 (PGSI-4)
-- Kompletterande analyser av **Stödlinjen** 2021 samt ett öppet kanadensiskt dataset [[@cooperSeparatingBehaviours2023]]{style="font-size:0.6em"}
+  * **Undersökning om spel om pengar bland unga och föräldrar (USUF)** 2021 (PGSI-9)
+  * **Hälsa på Lika Villkor - HLV** 2014–2024 (PGSI-4)
+- Kompletterande analyser av **Stödlinjen**s data från 2021 samt ett öppet kanadensiskt dataset [[@cooperSeparatingBehaviours2023]]{style="font-size:0.6em"}
 - Litteraturöversikt över tidigare psykometriska utvärderingar av PGSI
 
 ## PGSI:s nio frågor
