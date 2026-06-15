@@ -112,7 +112,7 @@ Till skillnad från nästan alla tidigare publicerade analyser använder vi **si
 ::: footer
 :::
 
-## Dimensionalitet: minst två dimensioner {.ljusbla}
+## Dimensionalitet {.ljusbla}
 
 Samtliga analysmetoder visar på **multidimensionalitet**:
 
@@ -142,7 +142,7 @@ En bättre fungerande indelning:
 . . .
 
 ::: {.callout-note appearance="simple"}
-Analyserade som separata delskalor fungerar item fit väl för båda faktorerna i Swelogs-data.
+Analyserade som separata delskalor fungerar item fit väl för båda faktorerna i Swelogs-data. **Korrelation** mellan faktorerna: *r* = 0.51.
 :::
 
 ## Svarskategorier
