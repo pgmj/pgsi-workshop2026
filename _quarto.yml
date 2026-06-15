@@ -1,0 +1,5 @@
+project:
+  output-dir: docs
+  render:
+    - pgsi9_fohm.qmd      # don't also render quarto-theme-ki/template.qmd
+    - pgsi4_fohm.qmd
